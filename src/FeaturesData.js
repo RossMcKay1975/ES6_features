@@ -6,7 +6,7 @@ const FeaturesData = [
     name: "destructuring",
     description: "The destructuring assignment syntax is a JavaScript expression that makes it possible to unpack values from arrays, or properties from objects, into distinct variables.",
     MDNLink: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#Object_destructuring",
-    isImplemented: false,
+    isImplemented: true,
     implementations: "FeaturesList.js (props)"
   },
   {
@@ -20,17 +20,17 @@ const FeaturesData = [
     name: "import",
     description: "The static import statement is used to import bindings which are exported by another module",
     MDNLink: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import",
-    isImplemented: false,
+    isImplemented: true,
     implementations: "App.js, FeaturesList.js"
   },
   {
     name: "export",
     description: "The export statement is used when creating JavaScript modules to export functions, objects, or primitive values from the module so they can be used by other programs with the import statement.",
     MDNLink: "https://developer.mozilla.org/en-US/docs/web/javascript/reference/statements/export",
-    isImplemented: false,
+    isImplemented: true,
     implementations: "FeaturesList.js, FeatureData.js, App.js"
   }
 
 ]
 
-module.exports = FeaturesData
+export default FeaturesData
